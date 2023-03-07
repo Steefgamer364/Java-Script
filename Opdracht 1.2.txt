@@ -1,0 +1,35 @@
+1. Strict mode is een mode die je script meer checkt.
+2. De top van je code.
+3. Voor meer correcties.
+4. Wat iets doet.
+5. Een variable is een conditie, een functie doet iets.
+6. function addNumbers(num1, num2) {
+  let result = num1 + num2;
+  return result;
+}
+7.
+A = 4
+B = 2
+C = 1
+D = 6
+E = 5
+
+8. Niks
+9. Cheese
+10. Cheese Cheese
+11. Je krijgt 3 knuffels van mij <3
+12. Je krijgt 12 knuffels van mij <3
+13. Je krijgt 1 knuffel van mij <3
+14. Je krijgt 12 knuffels van mij <3
+15. Je krijgt 12 knuffels van mij <3
+    Extra knuffels!
+16. Je krijgt 12 knuffels van mij <3
+    Extra knuffels!
+17. Niks geen console log
+18. 4
+19. 4 4
+20. 8
+21. 16
+22. Wanneer het werkt.
+23. 4
+24. 
