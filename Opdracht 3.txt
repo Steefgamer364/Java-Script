@@ -1,0 +1,1 @@
+Omdat de al aangegeven informatie neemt en het in de console plakt, hier neemt het dus de informatie van de objectOne (Dus de naam Henk leeftijd etc) en daarna pakt het de andere informatie, het maakt het niet aan het plaats gewoon wat het al heeft.
