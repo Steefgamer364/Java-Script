@@ -1,0 +1,1 @@
+console.log ('My friends are Koe and Vos')
