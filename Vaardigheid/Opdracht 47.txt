@@ -1,0 +1,22 @@
+Let's start part 1!
+Working on subpart 1!
+Working on subpart 2!
+Working on subpart 3!
+Working on subpart 4!
+Working on subpart 5!
+
+Let's start part 2!
+Working on subpart 1!
+Working on subpart 2!
+Working on subpart 3!
+Working on subpart 4!
+Working on subpart 5!
+
+Let's start part 3!
+Working on subpart 1!
+Working on subpart 2!
+Working on subpart 3!
+Working on subpart 4!
+Working on subpart 5!
+
+Omdat het in de for loop met 3 de for loop van 5 ook herhaalt
