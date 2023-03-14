@@ -1,0 +1,22 @@
+1. Document Object Model, eigelijk een overzicht voor documenten.
+2. De Document Object Model veranderen.
+3. Wanneer de web browser geladen is.
+4. Dat het een deel van de Web API is.
+5. Het laat je dingen selecteren en veranderen in de DOM.
+6. De een selecteerd een ding, de ander selecteerd alles.
+7. A7
+8. A6 is een prachtige snelweg. 
+9. G.textContent is een prachtige snelweg.
+10. 36
+11. 12
+12. 15
+13. Een event is een ding dat is gebeurt.
+14. addEventListener() zo.
+15. <div class = "Baba booey" style(Jadiejada)>
+16. Een interface element.
+17. Dingen die de hele pagina effecten, dingen zoals resizen refreshen etc.
+18. window.addEventListener('load', function() {
+});
+19. Het add een functie van een key omlaag doen, dan print ie het resultaat.
+20. Het zelfde als boven maar nu is de Keycode 27 en als 'Hidden' in de class list zit dan opent en closed hij de Modal.
+21. Een refresh bijvoorbeeld, ik heb niet echt een foto van een refresh.
