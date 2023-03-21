@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="Yahtzee.css" rel="stylesheet">
+
+        <link href="Yahtzee tele.css" media="screen and (max-width: 970px)" rel="stylesheet">
+
+        <link href="Yahtzee tab.css" media="screen and (max-width: 710px)" rel="stylesheet">
+
+        <title>Yahtzee</title>
+    </head>
+
+    <body>
+        <main>
+            <div class="playerCard player1">
+                <h1 id="p1">Speler 1</h1>
+                <div class="card">
+                    <div class="infoTop">
+                        <p>Deel 1</p> <p>Score</p> <p>Game 1</p> <p>Game 2</p> <p>Game 3</p> <p>Game 4</p> <p>Game 5</p> <p>Game 6</p>
+                    </div>
+
+                    <div class="info">
+
+                        <div><p>Aces <img src="Dice-1.png"></p> <p>Total 1's</p></div>
+                        <div><p>Twee <img src="Dice-2.png"></p> <p>Total 2's</p></div>
+                        <div><p>Drie <img src="Dice-3.png"></p> <p>Total 3's</p></div>
+                        <div><p>Vier <img src="Dice-4.png"></p> <p>Total 4's</p></div>
+                        <div><p>Fijf <img src="Dice-5.png"></p> <p>Total 5's</p></div>
+                        <div><p>Zes <img src="Dice-6.png"></p> <p>Total 6's</p></div>
+                        <div><p>Totale Punten</p> <p>→</p></div>
+                        <div><p>Extra Bonus</p> <p>35points</p></div>
+                        <div><p>Deel 1</p> <p>→</p></div>
+
+                        <div><p>Deel 2</p></div>
+                        <div><p>Three of a Kind</p> <p>All Dice</p></div>
+                        <div><p>Four of a Kind</p> <p>All Dice</p></div>
+                        <div><p>Full House</p> <p>25 pt</p></div>
+                        <div><p>Small Street</p> <p>30 pt</p></div>
+                        <div><p>Large Street</p> <p>40 pt</p></div>
+                        <div><p>Yahtzee</p> <p>50 pt</p></div>
+                        <div><p>Kans</p> <p>All Dice</p></div>
+
+                        <div><p>Deel 1</p> <p>→</p></div>
+                        <div><p>Deel 2</p> <p>→</p></div>
+                        <div><p>Total Score</p> <p>→</p></div>
+                    </div>
+
+                    <div id="score1"></div>
+                </div>
+            </div>
+
+            <div id="dice">
+                <div id="d1"> </div>
+                <div id="d2"> </div>
+                <div id="d3"> </div>
+                <div id="d4"> </div>
+                <div id="d5"> </div>
+
+                <div id="roll" onclick="rollDice()">Roll</div>
+            </div>
+
+            <div class="playerCard player2">
+                <h1 id="p2">Speler 2</h1>
+                <div class="card">
+                    <div class="infoTop">
+                        <p>Part 1</p> <p>Score</p> <p>Game 1</p> <p>Game 2</p> <p>Game 3</p> <p>Game 4</p> <p>Game 5</p> <p>Game 6</p>
+                    </div>
+
+                    <div class="info">
+
+                        <div><p>Aces <img src="Dice-1.png"></p> <p>Total 1's</p></div>
+                        <div><p>Twee <img src="Dice-2.png"></p> <p>Total 2's</p></div>
+                        <div><p>Drie <img src="Dice-3.png"></p> <p>Total 3's</p></div>
+                        <div><p>Vier <img src="Dice-4.png"></p> <p>Total 4's</p></div>
+                        <div><p>Fijf <img src="Dice-5.png"></p> <p>Total 5's</p></div>
+                        <div><p>Zes <img src="Dice-6.png"></p> <p>Total 6's</p></div>
+                        <div><p>Totale Punten</p> <p>→</p></div>
+                        <div><p>Extra Bonus</p> <p>35points</p></div>
+                        <div><p>Deel 1</p> <p>→</p></div>
+
+                        <div><p>Deel 2</p></div>
+                        <div><p>Three of a Kind</p> <p>All Dice</p></div>
+                        <div><p>Four of a Kind</p> <p>All Dice</p></div>
+                        <div><p>Full House</p> <p>25 pt</p></div>
+                        <div><p>Small Street</p> <p>30 pt</p></div>
+                        <div><p>Large Street</p> <p>40 pt</p></div>
+                        <div><p>Yahtzee</p> <p>50 pt</p></div>
+                        <div><p>Kans</p> <p>All Dice</p></div>
+
+                        <div><p>Deel 1</p> <p>→</p></div>
+                        <div><p>Deel 2</p> <p>→</p></div>
+                        <div><p>Total Score</p> <p>→</p></div>
+                    </div>
+
+                    <div id="score2"></div>
+                </div>
+            </div>
+        </main>
+              
+        <script src="Yahtzee 1.js"></script>  
+        <script src="Yahtzee 2.js"></script>      
+    </body>
+</html>
