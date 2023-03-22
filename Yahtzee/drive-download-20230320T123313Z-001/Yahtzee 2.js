@@ -1,4 +1,4 @@
-//Dice and roll
+
 let isLocked = [false, false, false, false, false, false];
 let rollValue = [0, 0, 0, 0, 0];
 
@@ -12,7 +12,8 @@ let rollInfo = (i) => {
 diceRoll();
 
 function roll() {
-    if (!lockDice) {
+    if (!lockDice && turnNumber <= 3) {
+        //turnNumber += 1;
         for (let i = 0; i < 5; i++) {
             let dice = document.getElementById(`d${i + 1}`);
 
@@ -62,17 +63,15 @@ for (let i = 0; i < 5; i++) {
     }
 }
 
-//Placement
 function setPlaceData(player, i, totals) {
     if (!gameData.p1IsPlaced[player - 1][i] && !gameData.p2IsPlaced[player - 1][i]) {
-        //Part 1
+
         if (i < 6) {
             scoreBlock(player, i).innerText = gameData.allDice[i] > 0 ? gameData.allDice[i] : '❌';
             gameData.p1IsPlaced[player - 1][i] = true;
 
             totals[0] += gameData.allDice[i];
 
-            //Put in score part 1
             scoreBlock(player, 6).innerText = totals[0];
             scoreBlock(player, 7).innerText = totals[0] >= 63 ? '✔' : '';
             scoreBlock(player, 8).innerText = totals[0] >= 63 ? totals[0] + 35 : totals[0];
@@ -160,8 +159,7 @@ function reset() {
     gD.finishGame = 0;
     gD.player = 1;
 
-    //Top is player 1 and bottom is player 2
-    //Part 1     
+ 
     gD.p1IsPlaced = [
         [false, false, false, false, false, false],
         [false, false, false, false, false, false]

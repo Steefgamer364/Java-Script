@@ -1,0 +1,29 @@
+Dag 1. Heb niet veel gedaan aan Yahtzee
+Ging goed: Niet veel, er was te weinig gedaan
+Ging slecht: motivatie
+Kon beter: Motivatie
+
+Dag 2. Heb wat van de HTML and CSS gedaan
+Ging goed: De HTML basis
+Ging slecht: motivatie
+Kon beter: meer tijd aan de CSS besteden.
+
+Dag 3. HTML en CSS basis is af.
+Ging goed: De HTML en CSS basis is af
+Ging slecht: Paar problemen met de locatie van de html.
+Kon beter: locatie vinden
+
+Dag 4. Verder gewerkt aan de score grid.
+Ging goed: De HTML
+Ging slecht: de for loop voor de grid maken.
+Kon beter: meer kenis
+
+Dag 5. Heb de HTML en CSS opgemooid.
+Ging goed: het opmooien
+Ging slecht: progress
+Kon beter: meer progress
+
+Dag 6. 12 uur gewerkt, ik wil Java-script niet meer zien.
+Ging goed: VEEL werk gedaan en af.
+Ging slecht: Wat van de Java-script
+Kon beter: meer pauzes.

@@ -1,0 +1,169 @@
+1. Document Object Model: DOM-manipulatie verwijst naar het wijzigen van de HTML-structuur van een webpagina via JavaScript.
+var myElement = document.getElementById("myDiv");
+
+myElement.style.backgroundColor = "blue";
+2. Ze zijn true of false maar in andere circustanse
+let foo = "hello";
+
+if (foo) {
+  console.log("foo is truthy");
+} else {
+  console.log("foo is falsy");
+}
+
+let bar;
+
+if (bar) {
+  console.log("bar is truthy");
+} else {
+  console.log("bar is falsy");
+}
+3. 
+ A. Een series aan values.
+ B. Een object heeft meer complexere dingen die meer structuur nodig hebben.
+
+ 4. 
+ A. Een for loop is gebruiked *for* een hoop dingen in een keer aanmaken, bijvorbeeld jee wilt 49 elements dan zeg je tegen de for loop als het minder dan 49 is maak 1 element aan.
+ B. Het zelfde als een for loop maar het gebeurt tijdens iets.
+ C. For gaat pas af wanneer we (meestal de script) activeren terwijl while loop alleen af gaat tijdens een functie in het script.
+ D. 
+ For loop:
+ for (let i = 1; i <= 5; i++) {
+  console.log(i);
+}
+While loop:
+let i = 1;
+while (i <= 5) {
+  console.log(i);
+  i++;
+}
+5. 
+A. het zegt gewoon als dit gebeurt dan doe je dit ANDERS doe je dit.
+B. Een switch wisselt gewoon wat er gebeurt met iets anders dat al is ingesteld.
+C. 
+Waneer if else:
+let age = 18;
+
+if (age >= 18) {
+  console.log("Je bent oud genoeg om te stemmen");
+} else {
+  console.log("Je bent te jong om te stemmen");
+}
+Switch:
+let fruit = "appel";
+
+switch (fruit) {
+  case "appel":
+    console.log("Deze vrucht is rond en rood of groen.");
+    break;
+  case "banaan":
+    console.log("Deze vrucht is lang en geel.");
+    break;
+  case "perzik":
+    console.log("Deze vrucht is rond en oranje.");
+    break;
+  default:
+    console.log("We kennen deze vrucht niet.");
+}
+
+6.
+HTML: 
+<button id="add-btn">Add element!</button>
+<ul id="list"></ul>
+<script src="Opdracht 6.js"></script>
+Js:
+const addButton = document.getElementById("add-btn");
+const list = document.getElementById("list");
+let count = 0;
+
+addButton.addEventListener("click", function() {
+  if (count >= 49) {
+    alert("Maximaal aantal elementen bereikt!");
+    return;
+  }
+  
+  count++;
+  const li = document.createElement("li");
+  li.textContent = "Element " + count;
+  list.appendChild(li);
+});
+7.
+HTML:
+<button id="add-btn">Add element!</button>
+<ul id="list"></ul>
+<script src="Opdracht 7.js"></script>
+Js:
+const addButton = document.getElementById("add-btn");
+const list = document.getElementById("list");
+let count = 0;
+
+addButton.addEventListener("click", function() {
+  if (count >= 49) {
+    alert("Maximaal aantal elementen bereikt!");
+    return;
+  }
+  
+  count++;
+  const li = document.createElement("li");
+  li.textContent = "Element " + count;
+  list.appendChild(li);
+});
+
+for (let i = 1; i <= 49; i++) {
+  const li = document.createElement("li");
+  li.textContent = "Element " + i;
+  list.appendChild(li);
+  count++;
+}
+
+if (count >= 49) {
+  addButton.disabled = true;
+}
+8. 
+const arr = [];
+
+for (let i = 0; i < 49; i++) {
+  const num = Math.floor(Math.random() * 901) + 100;
+  arr.push(num);
+}
+
+console.log(arr);
+9.
+Html:
+<button id="add-btn">Add element!</button>
+<ul id="list"></ul>
+<script src="Opdracht 9.js"></script>
+
+Js:
+const arr = [];
+
+for (let i = 0; i < 49; i++) {
+  const num = Math.floor(Math.random() * 901) + 100;
+  arr.push(num);
+}
+
+const list = document.getElementById("list");
+
+for (let i = 0; i < arr.length; i++) {
+  const li = document.createElement("li");
+  li.textContent = arr[i];
+  list.appendChild(li);
+}
+
+10. 
+const addButton = document.getElementById("add-btn");
+const list = document.getElementById("list");
+let count = 0;
+
+addButton.addEventListener("click", function() {
+  if (count <= 49) {
+for (let count = 0; count <= 49; count++)    return;
+  }
+  
+  count++;
+  const li = document.createElement("li");
+  li.textContent = "Element " + count;
+  list.appendChild(li);
+});
+
+console.log("Element"+ count);
